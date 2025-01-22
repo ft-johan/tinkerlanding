@@ -17,7 +17,7 @@ const { data } = Astro.props;
     {data.title}
   </SectionTitle>
   <div
-    class="my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-y-10 place-items-center"
+    class="my-20 grid grid-cols-1 gap-y-10 place-items-center"
   >
     {
       data.tiers.map((tier) => (
@@ -26,16 +26,7 @@ const { data } = Astro.props;
             <h3 class="text-4xl text-center font-semibold">{tier.title}</h3>
             <p class="text-xl text-center opacity-90">{tier.description}</p>
           </header>
-          <section class="flex justify-center">
-            <h4 class="text-6xl font-semibold">
-              {tier.price.amount}
-              {tier.price.period && (
-                <span class="font-normal text-xl opacity-85">
-                  {tier.price.period}
-                </span>
-              )}
-            </h4>
-          </section>
+          
           <section class="flex justify-start">
             <ul class="flex flex-col gap-y-4 text-lg">
               {tier.features.map((feature) => (
@@ -53,7 +44,7 @@ const { data } = Astro.props;
               as="a"
               class="bg-primary text-white w-72"
               type="button"
-              href="#"
+              href="https://upi.me/pay?pa=abhimanyurbsa@oksbi&pn=Abhimanyu"
             >
               {tier.cta}
             </Action>

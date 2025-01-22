@@ -24,14 +24,7 @@
     }
   },
   "headerData": {
-    "logo": "Luna Landing",
-    "links": [
-      { "label": "About", "href": "#" },
-      { "label": "Services", "href": "#" },
-      { "label": "Prices", "href": "#" },
-      { "label": "FAQs", "href": "#" },
-      { "label": "Blog", "href": "#" }
-    ]
+    "logo": "TinkHerHack 3.0 Ceknpy"
   },
   "heroData": {
     "title": "Open Your Mind to the Universe: Welcome to",
@@ -113,23 +106,9 @@
     ]
   },
   "pricingData": {
-    "title": "Our Pricing",
+    "title": "Contributions",
     "tiers": [
-      {
-        "title": "Starter",
-        "description": "Best option for personal use & for your next project.",
-        "price": {
-          "amount": "Free"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      },
+
       {
         "title": "Professional",
         "description": "Relevant for multiple users, extended & premium support.",
@@ -144,23 +123,7 @@
           "feature 4",
           "feature 5"
         ],
-        "cta": "Get started"
-      },
-      {
-        "title": "Enterprise",
-        "description": "Best for large scale uses and extended redistribution rights.",
-        "price": {
-          "amount": "$59",
-          "period": "/month"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
+        "cta": "Link for Contributions"
       }
     ]
   },

@@ -17,17 +17,7 @@ const { data } = Astro.props;
     <div class="text-nowrap">
       <Action as="a" class="text-xl" href="#">{data.logo}</Action>
     </div>
-    <ul class="flex flex-row w-full justify-center gap-x-14">
-      {
-        data.links.map((item) => (
-          <li class="text-lg hover:scale-110 hover:opacity-80">
-            <Action as="a" href={item.href}>
-              {item.label}
-            </Action>
-          </li>
-        ))
-      }
-    </ul>
+   
     <span></span>
   </nav>
 </header>
