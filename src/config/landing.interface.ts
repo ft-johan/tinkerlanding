@@ -11,7 +11,7 @@ export interface LandingPageData {
 
 export interface HeaderData {
   logo: string;
-  links: Link[];
+
 }
 
 export interface HeroData {
