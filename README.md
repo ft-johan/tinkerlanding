@@ -43,3 +43,5 @@ pnpm dev
 - Astro - The web framework for content-driven websites.
 - Typescript - JavaScript with syntax for types.
 - Tailwind CSS - A utility-first CSS framework for rapidly building custom designs.
+## just some things 
+do the web fully to the tinkerhub
